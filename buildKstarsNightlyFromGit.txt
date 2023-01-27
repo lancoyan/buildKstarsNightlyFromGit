@@ -189,10 +189,10 @@ if [ $run_clone ]; then
     cd $p/Projects
  	echo ================================================================
  	rm -r indi
-    git clone http://github.com/indilib/indi.git
+    git clone https://github.com/lancoyan/indi.git
  	echo ================================================================
  	rm -r indi-3rdparty
-    git clone http://github.com/indilib/indi-3rdparty.git
+    git clone https://github.com/lancoyan/indi-3rdparty.git
  	echo ================================================================
  	rm -r kstars
     git clone http://invent.kde.org/education/kstars.git
