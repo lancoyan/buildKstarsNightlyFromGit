@@ -195,7 +195,7 @@ if [ $run_clone ]; then
     git clone https://github.com/lancoyan/indi-3rdparty.git
  	echo ================================================================
  	rm -r kstars
-    git clone http://invent.kde.org/education/kstars.git
+    git clone https://github.com/lancoyan/kstars.git
 fi
 
 # Update the Indi and KStars source code
